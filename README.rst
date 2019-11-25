@@ -13,10 +13,10 @@ Good data structures should be:
 
 - **Human-readable and -editable.**
 
-  - Free of visual clutter; unused fields are be omitted.
+  - Free of visual clutter; unused fields may be, and are, omitted.
 
-  - Structured: the layout of the data should convey information about its
-    organization.
+  - Structured: the layout of the data (within files, the names of files,
+    their organization) helps users find certain data.
 
   - Contain recognizable symbols; terms that are self-explanatory for the
     intended users; and values from clearly-defined lists.
@@ -25,16 +25,20 @@ Good data structures should be:
 
   - In parsimonous formats that are not laborious to edit.
 
+  ...but **also**...
+
 - **Machine-readable.**
 
   Code is provided:
 
-  - ...that reads and writes the data in the standard format (required).
+  - ...that reads and writes the data in the standard format (essential).
 
-    - Data that can be read by this 'reference' code is valid data; data that
-      cannot be read is not in the proper format.
+    - Data that can be read by this 'reference' code is valid data.
 
-    - The reference code should be simple and easy to read itself.
+    - Data that cannot be read is not in the proper format.
+
+    - The reference code should itself be simple and easy to read,
+      well-commented, and tested.
 
   - ...in multiple programming languages (optional; users can write their own
     by translating the reference code).
@@ -47,7 +51,7 @@ Good data structures should be:
 
   The structures should also be versionable. Usually, this means text-mode
   files, so that reliable, popular, well-supported tools like git can be used
-  to store changes to the files and
+  to store changes to the files, and display information about those changes.
 
 
 Terminology
@@ -61,7 +65,9 @@ Terminology
   - Numbers.
   - Symbols or text in specific formats or from certain lists.
   - Widely-known formats such as URLs, e-mail addresses, etc.
-  - Free text of a limited length.
+  - Free text of (un)limited length.
+  - Other structured sub-units of observation, e.g. *targets* associated with a
+    policy, or *jurisdictions* to which it applies.
 
 
 Example
@@ -71,11 +77,11 @@ The example is provided using YAML formatted files and Python code; other
 formats and languages/frameworks could be used. Provided are:
 
 - Three files with a selection of rows from three different policy databases:
-  'new-climate.yaml', 'cd-links.yaml', and 'commit.yaml'.
-- A metadata file 'structure.yaml' with code lists.
-- Code ('example.py' and 'structure.py') that reads the files and manipulates
-  them, demonstrating:
+  ``new-climate.yaml``, ``cd-links.yaml``, and ``commit.yaml``.
+- A metadata file ``structure.yaml`` with code lists.
+- Code (``example.py`` and ``structure.py``) that reads the files and
+  manipulates them, demonstrating:
 
-  1. Defining data structures in code (in 'structure.py').
-  2. Reading from various formats to a common structure.
-  3. Writing to a common format.
+  1. Defining data structures in code (in ``structure.py``).
+  2. Reading from various formats to a common structure (in ``example.py``).
+  3. Writing to a common format (in ``example.py``).
