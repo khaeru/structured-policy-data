@@ -1,5 +1,13 @@
 Structured data on climate & energy policies
---------------------------------------------
+============================================
+
+© 2019 Paul Natsuo Kishimoto <mail@paul.kishimoto.name>.
+Licensed under `CC BY-SA <http://creativecommons.org/licenses/by-sa/4.0>`_.
+
+
+This repository contains an example of how to use structured data formats to
+store policy data.
+
 
 Good data structures should be:
 
@@ -60,11 +68,10 @@ Example
 -------
 
 The example is provided using YAML formatted files and Python code; other
-formats and languages/frameworks could be used.
+formats and languages/frameworks could be used. Provided are:
 
-Provided:
-
-- Three files with a selection of rows from three different policy databases.
+- Three files with a selection of rows from three different policy databases:
+  'new-climate.yaml', 'cd-links.yaml', and 'commit.yaml'.
 - A metadata file 'structure.yaml' with code lists.
 - Code ('example.py' and 'structure.py') that reads the files and manipulates
   them, demonstrating:
