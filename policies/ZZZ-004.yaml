@@ -1,0 +1,17 @@
+description: Retrofit is 45% efficiency improvement relative to reference (baseline)
+  building.
+sector:
+- Buildings
+source: COMMIT database / ‘Fekete’ via Google Sheet “Bridging Scenario GPP list
+  24 October 2019_final”.
+targets:
+  developed:
+    quantity: 6b. Renovation rate existing buildings (efficiency improvement)
+    unit: '% (starting in 2018)'
+    value: 24.0
+    year: 2050
+  developing:
+    quantity: 6b. Renovation rate existing buildings (efficiency improvement)
+    unit: '% (starting in 2018)'
+    value: 14.0
+    year: 2050

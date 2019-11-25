@@ -1,0 +1,12 @@
+coverage:
+- 'Country :: AUS'
+sector:
+- Economy wide
+source: CD-LINKS database
+targets:
+  default:
+    quantity: Economy-wide|Energy productivity increase (GDP/PJ)
+    reference year: 2015
+    unit: GDP ($M)/PJ
+    value: 0.4
+    year: 2030

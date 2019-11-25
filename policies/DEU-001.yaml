@@ -1,0 +1,11 @@
+coverage:
+- 'Country :: DEU'
+instrument:
+- Policy support
+- Institutional creation
+- Strategic planning
+name: '"Energy of the Future" monitoring process'
+sector:
+- General
+source: http://www.bundesnetzagentur.de/EN/Areas/Energy/Companies/MonitoringEnergyofTheFuture/MonitoringEnergyoftheFuture-node.html
+state: Implemented

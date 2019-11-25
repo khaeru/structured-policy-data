@@ -1,0 +1,13 @@
+coverage:
+- 'Country :: SAU'
+sector:
+- Transportation
+source: CD-LINKS database
+targets:
+  default:
+    quantity: Fuel efficiency | Light trucks | New
+    range:
+    - 1.41
+    - 2.04
+    unit: MJ/pkm
+    year: 2020

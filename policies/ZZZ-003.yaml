@@ -1,0 +1,15 @@
+sector:
+- Buildings
+source: COMMIT database / ‘Fekete’ via Google Sheet “Bridging Scenario GPP list
+  24 October 2019_final”.
+targets:
+  developed:
+    quantity: 6a. Renovation rate existing buildings (efficiency improvement)
+    unit: '% (starting in 2018)'
+    value: 11.0
+    year: 2030
+  developing:
+    quantity: 6a. Renovation rate existing buildings (efficiency improvement)
+    unit: '% (starting in 2018)'
+    value: 6.0
+    year: 2030

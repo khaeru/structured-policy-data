@@ -1,0 +1,12 @@
+coverage:
+- 'Country :: ARG'
+sector:
+- Energy supply
+source: CD-LINKS database
+targets:
+  default:
+    quantity: Heat capacity (added) | Biomass
+    reference year: 2013
+    unit: MW
+    value: 200
+    year: 2016

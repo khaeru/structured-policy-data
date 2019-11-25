@@ -1,0 +1,116 @@
+sector:
+# From New Climate
+- Appliances
+- Buildings
+- Electricity and heat
+- General
+- Hot water and cooking
+- Industry
+- Renewables
+# From CD-LINKS
+- Energy supply
+- Economy wide
+# - Industry  # duplicate
+- Transportation
+# From COMMIT
+- Agriculture
+# - Buildings
+- Carbon pricing
+- Energy Supply  # duplicate of 'Energy Supply' (different case)
+- F-gas
+- Fugitive emissions
+# - Industry
+- LULUCF
+- Transport  # duplicate of 'Transportation'
+- Waste
+
+# From New Climate
+implementation state:
+- Ended
+- Implemented
+- Planned
+- Superseded
+- Under review
+- Unknown
+
+# From New Climate
+instrument:
+- Advice or Aid in implementation
+- Auditing
+- Barrier removal
+- Building codes and standards
+- Climate strategy
+- CO2 taxes
+- Codes and standards
+- Comparison label
+- Coordinating body for climate strategy
+- Demonstration project
+- Direct investment
+- Economic Instruments
+- Endorsement label
+- Energy and other taxes
+- Energy efficiency target
+- Feed-in tariffs or premiums
+- Fiscal or financial incentives
+- Formal & legally binding climate strategy
+- Formal & legally binding energy efficiency target
+- Formal & legally binding GHG reduction target
+- Formal & legally binding renewable energy target
+- Funds to sub-national governments
+- GHG emission reduction crediting and offsetting mechanism
+- GHG emissions allowances
+- GHG reduction target
+- Grants and subsidies
+- Green certificates
+- Grid access and priority for renewables
+- Information and education
+- Information provision
+- Infrastructure investments
+- Institutional creation
+- Loans
+- Market-based instruments
+- Monitoring
+- Negotiated Agreements (Public-private sector)
+- Net metering
+- Obligation schemes
+- Other mandatory requirements
+- Performance label
+- Policy support
+- Policy[Type of policy instrument]
+- Political & non-binding climate strategy
+- Political & non-binding energy efficiency target
+- Political & non-binding GHG reduction target
+- Political & non-binding renewable energy target
+- Procurement rules
+- Product standards
+- Professional training and qualification
+- Public Voluntary Schemes
+- RD&D funding
+- Regulatory Instruments
+- Removal of fossil fuel subsidies
+- Renewable energy target
+- Research & Development and Deployment (RD&D)
+- Research programme
+- Retirement premium
+- Sectoral standards
+- Strategic planning
+- Target
+- Tax relief
+- Technology deployment and diffusion
+- Technology development
+- Tendering schemes
+- Unilateral Commitments (Private sector)
+- User charges
+- Vehicle fuel-economy and emissions standards
+- Voluntary Approaches
+- White certificates
+
+# From New Climate
+type:
+- Changing activity
+- Energy efficiency
+- Non-energy
+- Nuclear or CCS or fuel switch
+- Policy[Policy type]
+- Renewables
+- Unknown

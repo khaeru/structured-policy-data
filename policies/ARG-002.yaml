@@ -1,0 +1,11 @@
+coverage:
+- 'Country :: ARG'
+sector:
+- Transportation
+source: CD-LINKS database
+targets:
+  default:
+    quantity: Biofuel share in transport | Bioethanol + biodiesel
+    reference year: 2016
+    unit: '%'
+    value: 12

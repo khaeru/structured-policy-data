@@ -1,0 +1,80 @@
+# Examples from NewClimate policy database
+# http://www.climatepolicydatabase.org/index.php/Download_policies
+
+# The first entry contains fields that are empty in all records.
+# The remaining entries omit those fields.
+
+- Title: "\"All inclusive\" Feed-in Tariff for small renewable energy power plants Italy 2008"
+  Policy:
+    Name of policy: "\"All inclusive\" Feed-in Tariff for small renewable energy power plants"
+    Jurisdiction: Country
+    Supranational region:
+    Country: Italy
+    Subnational region or state:
+    City or local:
+    Type of policy instrument: Feed-in tariffs or premiums, Green certificates
+    Sector name: Electricity and heat, Renewables
+    Policy description:
+    Policy type: Renewables
+    Policy stringency:
+    Implementation state: Superseded
+    Date of decision: 2008
+    Start date of implementation:
+    End date of implementation:
+    Highlight:
+    Source or references: http://www.gse.it/attivita/Incentivazioni%20Fonti%20Rinnovabili/Servizi/Pagine/default.aspx
+  ImpactIndicatorSubObject:
+    Comments:
+    Name of impact indicator:
+    Value:
+    Base_year:
+    Target_year:
+
+- Title: "\"Energy of the Future\" monitoring process Germany 2011"
+  Policy:
+    Name of policy: "\"Energy of the Future\" monitoring process"
+    Jurisdiction: Country
+    Country: Germany
+    Type of policy instrument: Policy support, Institutional creation, Strategic planning
+    Sector name: General
+    Policy type: Changing activity, Energy efficiency, Renewables, Non-energy, Nuclear or CCS or fuel switch
+    Implementation state: Implemented
+    Date of decision: 2011
+    Source or references: http://www.bundesnetzagentur.de/EN/Areas/Energy/Companies/MonitoringEnergyofTheFuture/MonitoringEnergyoftheFuture-node.html
+
+- Title: "\"Energy-efficient Systems in Trade and Industry\" campaign Germany"
+  Policy:
+    Name of policy: "\"Energy-efficient Systems in Trade and Industry\" campaign"
+    Jurisdiction: Country
+    Country: Germany
+    Type of policy instrument: Information and education
+    Sector name: Industry, Appliances
+    Policy type: Energy efficiency
+    Implementation state: Ended
+    Date of decision: 0
+    End date of implementation: 2007
+    Source or references: http://www.stromeffizienz.de/
+
+- Title: "\"Kids ISO 14000 Program\" for Energy Conservation and GHG Reduction South Korea 2005"
+  Policy:
+    Name of policy: "\"Kids ISO 14000 Program\" for Energy Conservation and GHG Reduction"
+    Jurisdiction: Country
+    Country: Korea, Republic of
+    Type of policy instrument: Information provision
+    Sector name: Electricity and heat, Hot water and cooking, Buildings, Appliances
+    Policy type: Energy efficiency
+    Implementation state: Implemented
+    Date of decision: 2005
+    Source or references: http://www.iso.org/iso/en/kidsiso14000/index.html
+
+- Title: "\"Old\" Feed-In Premium for photovoltaic systems (I-II-III-IV Conto Energia) Italy 2005"
+  Policy:
+    Name of policy: "\"Old\" Feed-In Premium for photovoltaic systems (I-II-III-IV Conto Energia)"
+    Jurisdiction: Country
+    Country: Italy
+    Type of policy instrument: Feed-in tariffs or premiums
+    Sector name: Electricity and heat, Renewables
+    Policy type: Renewables
+    Implementation state: Superseded
+    Date of decision: 2005
+    Source or references: http://www.gse.it/attivita/ContoEnergiaF/servizi/Pagine/VecchioContoEnergia.aspx?Idp=1&Anno=&SortField=Created&SortDir=DESC

@@ -1,0 +1,17 @@
+description: For all sectors (with lower price for AFOLU). OK not to include for
+  2025 if deemend irrelevant for a country. Minimum price.
+sector:
+- Carbon pricing
+source: COMMIT database / ‘Brainstorm’ via Google Sheet “Bridging Scenario GPP list
+  24 October 2019_final”.
+targets:
+  developed:
+    quantity: 7a. C-tax (*0.5 for AFOLU)
+    unit: $/t CO2
+    value: 10.0
+    year: 2020
+  developing:
+    quantity: 7a. C-tax (*0.5 for AFOLU)
+    unit: $/t CO2
+    value: 10.0
+    year: 2030

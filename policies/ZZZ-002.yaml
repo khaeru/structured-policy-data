@@ -1,0 +1,18 @@
+description: '2030 value for developing countries: not relevant. Boilers can also
+  be used for water heating, not only space heating. New fossil boilers refer to
+  newly installed boilers which use fossil energy (so newly purchased boilers).'
+sector:
+- Buildings
+source: COMMIT database / ‘Brainstorm’ via Google Sheet “Bridging Scenario GPP list
+  24 October 2019_final”.
+targets:
+  developed:
+    quantity: 5b. New fossil boiler capacity in new and existing residential buildings
+    unit: GW
+    value: 0.0
+    year: 2030
+  developing:
+    quantity: 5b. New fossil boiler capacity in new and existing residential buildings
+    unit: GW
+    value: 0.0
+    year: 2040

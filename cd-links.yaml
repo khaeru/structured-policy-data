@@ -1,0 +1,53 @@
+# Example from CD-LINKS project, file titled
+# "CD_LINKS_Policies implemented by IAMs_May 2017_IIASA.xlsx"
+
+- Country: Argentina
+  Variable: Heat capacity (added) | Biomass
+  Sector: Energy supply
+  Value: 200
+  Unit: MW
+  Base year: 2013
+  End year: 2016
+  Class: Target
+
+- Country: Argentina
+  Variable: Biofuel share in transport | Bioethanol + biodiesel
+  Sector: Transportation
+  Value: 12
+  Unit: "%"
+  Base year: 2016
+  Class: Target
+
+- Country: Australia
+  Variable: Economy-wide|Energy productivity increase (GDP/PJ)
+  Sector: Economy wide  # Typo in the original data: 'Enonomy wide'
+  Value: 0.4
+  Unit: GDP ($M)/PJ
+  Base year: 2015
+  End year: 2030
+  Class: Planned
+
+- Country: Canada
+  Variable: Biofuel share in transport | Bioethanol + biodiesel
+  Sector: Transportation
+  Value: 3.7
+  Unit: "%"
+  Base year: 2011
+  Class: Target
+
+- Country: China
+  Variable: Energy use per industrial value added (MJ/IVA (US$2005))
+  Sector: Industry
+  Value: -18
+  Unit: "%"
+  Base year: 2015
+  End year: 2020
+  Class: Target
+
+- Country: Saudi Arabia
+  Variable: Fuel efficiency | Light trucks | New
+  Sector: Transportation
+  Range: [1.41, 2.04]
+  Unit: MJ/pkm
+  End year: 2020
+  Class: Target

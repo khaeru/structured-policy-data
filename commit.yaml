@@ -1,0 +1,66 @@
+# Examples from COMMIT project Google Drive spreadsheet titled
+# "Bridging Scenario GPP list 24 October 2019_final"
+
+# The first entry contains fields that are empty in all records.
+# The remaining entries omit those fields.
+
+- Sector: Buildings
+  Source: Brainstorm
+  Variable: 5a. New fossil boiler capacity in new and existing commercial buildings
+  Unit: GW
+  Developed Countries Value: 0
+  Developed Countries Year: 2030
+  Developing Countries Value: 0
+  Developing Countries Year: 2040
+  Comment General: >-
+    2030 value for developing countries: not relevant.
+    Boilers can also be used for water heating, not only space heating.
+    New fossil boilers refer to newly installed boilers which use fossil energy
+    (so newly purchased boilers).
+
+- Sector: Buildings
+  Source: Brainstorm
+  Variable: 5b. New fossil boiler capacity in new and existing residential buildings
+  Unit: GW
+  Developed Countries Value: 0
+  Developed Countries Year: 2030
+  Developing Countries Value: 0
+  Developing Countries Year: 2040
+  Comment General: >-
+    2030 value for developing countries: not relevant.
+    Boilers can also be used for water heating, not only space heating.
+    New fossil boilers refer to newly installed boilers which use fossil energy
+    (so newly purchased boilers).
+
+- Sector: Buildings
+  Source: Fekete
+  Variable: 6a. Renovation rate existing buildings (efficiency improvement)
+  Unit: "% (starting in 2018)"
+  Developed Countries Value: 11
+  Developed Countries Year: 2030
+  Developing Countries Value: 6
+  Developing Countries Year: 2030
+
+- Sector: Buildings
+  Source: Fekete
+  Variable: 6b. Renovation rate existing buildings (efficiency improvement)
+  Unit: "% (starting in 2018)"
+  Developed Countries Value: 24
+  Developed Countries Year: 2050
+  Developing Countries Value: 14
+  Developing Countries Year: 2050
+  Comment General: >-
+    Retrofit is 45% efficiency improvement relative to reference (baseline)
+    building.
+
+- Sector: Carbon pricing
+  Source: Brainstorm
+  Variable: 7a. C-tax (*0.5 for AFOLU)
+  Unit: $/t CO2
+  Developed Countries Value: 10
+  Developed Countries Year: 2020
+  Developing Countries Value: 10
+  Developing Countries Year: 2030
+  Comment General: >-
+    For all sectors (with lower price for AFOLU). OK not to include for 2025 if
+    deemend irrelevant for a country. Minimum price.

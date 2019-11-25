@@ -1,0 +1,10 @@
+coverage:
+- 'Country :: ITA'
+instrument:
+- Feed-in tariffs or premiums
+name: '"Old" Feed-In Premium for photovoltaic systems (I-II-III-IV Conto Energia)'
+sector:
+- Electricity and heat
+- Renewables
+source: http://www.gse.it/attivita/ContoEnergiaF/servizi/Pagine/VecchioContoEnergia.aspx?Idp=1&Anno=&SortField=Created&SortDir=DESC
+state: Superseded

@@ -1,0 +1,11 @@
+coverage:
+- 'Country :: ITA'
+instrument:
+- Feed-in tariffs or premiums
+- Green certificates
+name: '"All inclusive" Feed-in Tariff for small renewable energy power plants'
+sector:
+- Electricity and heat
+- Renewables
+source: http://www.gse.it/attivita/Incentivazioni%20Fonti%20Rinnovabili/Servizi/Pagine/default.aspx
+state: Superseded

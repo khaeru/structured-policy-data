@@ -1,0 +1,11 @@
+coverage:
+- 'Country :: CAN'
+sector:
+- Transportation
+source: CD-LINKS database
+targets:
+  default:
+    quantity: Biofuel share in transport | Bioethanol + biodiesel
+    reference year: 2011
+    unit: '%'
+    value: 3.7

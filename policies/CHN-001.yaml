@@ -1,0 +1,12 @@
+coverage:
+- 'Country :: CHN'
+sector:
+- Industry
+source: CD-LINKS database
+targets:
+  default:
+    quantity: Energy use per industrial value added (MJ/IVA (US$2005))
+    reference year: 2015
+    unit: '%'
+    value: -18
+    year: 2020

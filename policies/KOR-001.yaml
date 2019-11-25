@@ -1,0 +1,12 @@
+coverage:
+- 'Country :: KOR'
+instrument:
+- Information provision
+name: '"Kids ISO 14000 Program" for Energy Conservation and GHG Reduction'
+sector:
+- Electricity and heat
+- Hot water and cooking
+- Buildings
+- Appliances
+source: http://www.iso.org/iso/en/kidsiso14000/index.html
+state: Implemented

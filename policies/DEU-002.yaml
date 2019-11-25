@@ -1,0 +1,10 @@
+coverage:
+- 'Country :: DEU'
+instrument:
+- Information and education
+name: '"Energy-efficient Systems in Trade and Industry" campaign'
+sector:
+- Industry
+- Appliances
+source: http://www.stromeffizienz.de/
+state: Ended
