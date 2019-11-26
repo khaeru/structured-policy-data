@@ -85,3 +85,42 @@ formats and languages/frameworks could be used. Provided are:
   1. Defining data structures in code (in ``structure.py``).
   2. Reading from various formats to a common structure (in ``example.py``).
   3. Writing to a common format (in ``example.py``).
+
+
+Further steps
+-------------
+
+One optional item listed above is “code that prepares **model input data**
+based on the data structures.” From the example given, the steps to prepare
+input data for a global integrated assessment model (IAM) might be:
+
+1. Iterate over a list of ``Policy`` objects, selecting and/or discarding them
+   based on their attributes.
+2. Associate the objects, based on their ``.coverage`` attribute (=list of
+   jurisdictions covered by the policy), with model regions.
+3. Use the ``.targets`` attribute of the object to retrieve the data about the
+   targeted variable, value(s), unit, and year(s).
+4. Apply methods to aggregate #3 to the level of #2.
+5. Combine #4 with existing model data or reference/input data to produce
+   model input data.
+
+   - This could optionally be dumped to a file like an MS Excel spreadsheet, as
+     well as entering the model.
+
+The example stores coverage/**jurisdiction** data as a *list* of *'::'-delimited
+strings*; for instance::
+
+    coverage:
+    - 'Country :: DEU'
+
+This could be extended to cover a variety of types of jurisdictions::
+
+    coverage:
+    - 'City :: AUT :: Vienna'
+    - 'Country group :: ENGAGE :: R14_WEU'
+    - 'Country group :: COMMIT :: High-income countries'
+    - 'Industry :: Maritime shipping'  # e.g. for IMO targets
+
+As elsewhere, the code should operate based on lists that definine allowable
+values. The existing lists in ``structure.yaml`` should be expanded to
+include definitions of the items and reduce duplication.
